@@ -1,0 +1,33 @@
+5eCS
+
+Really quick to set-up an encounter ... just add the map image, add some monsters, move them onto the map (as a group) and attack.
+
+SRD files and spell details.
+
+Support for PNG/JPG/GIF and animated GIF files.
+
+Maps or encounter locations can be images.
+
+You can 'draw' on the map with colors, textures or objects.
+
+Zoom in/out with the mouse wheel. 'Click and drag' the map around.
+
+Add objects to add 'spice' to your encounters or notes to the map.
+
+Up to 70 encounter groups per map.
+
+Up to 256 monsters per map.
+
+XP Calculations.
+
+You're able to have line of sight / fog of war. Set their visibility range.
+
+Add modifiers (spells like Bless, Aid etc) for characters or monsters
+
+Show the initiative sequence on the player screen
+
+Dual screen, one for the DM and one for the players. This can be displayed on a separate monitor if you're doing in-person gaming or over the internet if you're doing it virtually.
+
+Lots of preloaded monsters (4020 for DnD v5, 4620 for Dnd v5.5, PathFinder2 1957, ShadowDark 250).
+	You can show different icons for monsters when they are disabled ie. animated armor/mimic
+	Alternate forms - the ability to 'switch' between different characters ie. Druid -> Bear -> Wolf -> Druid. Useful for shapechanges.

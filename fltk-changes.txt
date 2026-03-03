@@ -1,0 +1,27 @@
+Use the patch files to update the fltk source using
+
+   download the source from https://www.fltk.org/ and extract it
+
+	cd fltk-1.4.X
+	cd FL
+	cp ~/5ecs/FL*patch .
+	patch -u -b Fl_Image.H -i Fl_Image.H.patch
+	cd ../src
+	cp ~/5ecs/*patch .
+	patch -u -b Fl_Anim_GIF_Image.cxx -i Fl_Anim_GIF_Image.cxx.patch
+	patch -u -b Fl_Image.cxx -i Fl_Image.cxx.patch
+	patch -u -b Fl_Shared_Image.cxx -i Fl_Shared_Image.cxx.patch
+	patch -u -b Fl_Widget.cxx -i Fl_Widget.cxx.patch
+
+##############################################################################################
+
+./configure --enable-localjpeg --enable-localzlib --enable-localpng
+
+Copy the lib/*.a files and FL directory to another directory. Edit the "Makefile" file to reflect this.
+
+To cross compile it to run on windows
+
+make clean
+./configure --enable-localjpeg --enable-localzlib --enable-localpng --host=i686-w64-mingw32
+
+Copy the lib/*.a files to another directory. Edit the "mkcc" file to reflect this.

@@ -1,0 +1,22 @@
+				5eCS - Linux/Unix Compilation
+				=============================
+
+Install the build-essential package if you haven't already.
+
+Download FLTK v1.4.x from http://www/fltk.org
+
+Make the changes as per fltk-changes.txt and then make it.
+
+To compile 5eCS, review/edit the "Makefile" file and then run it using "make"
+
+See, easy :)
+
+If you do use "fluid" to make changes to the GUI, run "./fix" to reconfigure stuff ready to make it.
+
+To setup the cross compile, do the following steps:
+- install mingw32 (binutils-mingw-w64 g++-mingw-w64-i686 g++-mingw-w64 gcc-mingw-w64-base gcc-mingw-w64 mingw-w64)
+- build fltk using the details in fltk-changes.txt
+
+	copy the library files to a new folder
+	change mkcc to reflect that new location and the setup of your PC
+	run mkcc
