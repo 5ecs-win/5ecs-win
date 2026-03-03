@@ -1,0 +1,36 @@
+LIB=../fltk-144/win
+INC=../fltk-144
+FLTKVERSION=144
+
+PREFIX=i686-w64-mingw32
+export CC=$PREFIX-gcc
+export CXX=$PREFIX-g++
+export CPP=$PREFIX-cpp
+export RANLIB=$PREFIX-ranlib
+
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -Wall -c pDBlibrary.cxx 2>&1 | grep -v deprecated
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -c gridMap.cxx -I$INC 2>&1 | grep -v deprecated
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -DADMP_TEXT_SIZE=12 -DADMP_LABEL_SIZE=12 -fsigned-char -c ADMPtreasure.cxx -I$INC 2>&1 | grep -v deprecated
+
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -c gridTile.cxx -I$INC 2>&1 | grep -v deprecated
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -DFLTKVERSION=${FLTKVERSION} -DADMP_TEXT_SIZE=12 -DADMP_LABEL_SIZE=12 -fsigned-char -c ADMPextraa.cxx -I$INC 2>&1 | grep -v deprecated
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -DFLTKVERSION=${FLTKVERSION} -DADMP_TEXT_SIZE=12 -DADMP_LABEL_SIZE=12 -fsigned-char -c ADMPextrab.cxx -I$INC 2>&1 | grep -v deprecated
+$CXX -DWINDOWS -DCYGWIN -fstack-protector-all -Wno-write-strings -DADMP_TEXT_SIZE=12 -DADMP_LABEL_SIZE=12 -fsigned-char ADMPnew.cxx -o 5eCS.exe pDBlibrary.o ADMPextraa.o ADMPextrab.o ADMPtreasure.o gridTile.o gridMap.o -I$INC -L$LIB -lfltk_images -lfltk_png -lfltk_z -lfltk_jpeg -lfltk -lgdiplus -lws2_32 -lole32 -luuid -lcomctl32 -mwindows -static -lwinpthread -static-libgcc -static-libstdc++ -Wl,-Bstatic -lwinspool
+
+if [ $? -eq 0 ]
+then
+	rm *.o
+	$PREFIX-strip 5eCS.exe
+	mv -v 5eCS.exe ../5ecs-win/
+fi
+
+> logfile.txt
+
+rm help.pdf
+soffice --headless --convert-to pdf help.txt
+
+cp help.* ../5ecs-win/
+
+./src
+
+cd ~

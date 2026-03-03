@@ -1,0 +1,34 @@
+{
+  "Name": "5eCS Win",
+  "UpgradeCode": "9AC4B4FF-90C4-9B8F-91AD-9AC3238BF690",
+  "Version": "1.87",
+  "Manufacturer": "5eCS Win",
+  "Description": "5eCS Win Installer",
+  "Keywords": "msi, wix, build",
+  "_OsCondition": "601",
+  "_CheckX64": true,
+  "_Conditions": [],
+  "_AppIcon": "./5ecs-win.ico",
+  "_Icons": [],
+  "_ProgramMenuFolder": "5ecs-win",
+  "_Shortcuts": [
+      {"Name": "5eCS Win",
+       "Description": "RPG Combat Program",
+       "Target": "5eCS.exe",
+       "AddOnDesktop": true,
+       "Open": [{"Extension": ".json",
+                 "Descriptrion": "File \"JSON\"",
+                 "IconIndex": "0",
+                 "EditWith": false,
+                 "MIME": "application/json"}],
+       "OpenWith": [".png", ".svg", ".jpg"]
+       }
+  ],
+  "_AddToPath": [""],
+  "_AddBeforePath": [],
+  "_SourceDir": "/tmp/5ecs-win-update",
+  "_InstallDir": "5ecs-win",
+  "_OutputName": "5ecs-win-update.msi",
+  "_OutputDir": "/tmp",
+  "_SkipHidden": true
+}
