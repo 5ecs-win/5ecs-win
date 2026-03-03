@@ -1,0 +1,21 @@
+﻿Animist|3||5|45|SL|20|Y|54/we|32/bw|32|25|4 spells, magic
+Animist|6||10|63|SL|25|Y|72/we|45/bw|52|38|8 spells, magic
+Animist|12||15|143|RL|25|Y|132/we|98/bw|80|55|15 spells, magic
+Bandit|1||5|21|No|15|Y|30/we|15/bw|5|23
+Bandit|3||5|49|SL|20|Y|54/we|45/bw|25|38
+Bandit|5||15|62|SL|25|Y|69/we|58/bw|38|54|+5 shield
+Bandit Leader|4||10|65|RL|30|Y|75/we|63/bw|32|45|+5 shield, +10 weapon
+Bandit Leader|6||10|85|RL|30|Y|81/we|68/bw|41|48|+5 shield, +10 weapon
+Bandit Leader|8||20|95|RL|40|Y|155/we|85/bw|59|57|+10 shield, +10 weapon
+Fighter|7||20|124|RL|30|Y|105/we|86/bw|76|62|+10 shield & weapon
+Human|2||10|46|No|10|N|42/we|31/bw|22|22|
+Hillman|4||15|88|RL|10|Y|56/we|69/bw|27|38|
+Mage|3||20|42|No|35|N|25/we|20/bw|36|43|4 spells, magic
+Mage|6||20|59|No|45|N|35/we|25/bw|49|48|8 spells, magic
+Mage|9||20|72|No|55|N|45/we|35/bw|67|65|12 spells, magic
+Travelers|2||15|52|No|10|N|44/we|32/bw|32|29|
+Travelers|4||15|62|No|10|N|64/we|53/bw|44|36|
+Orc|1||20|35|RL|25|Y|45/we|30/bw|12|8|(sun)light penalty, endurance, vision
+Orc|3||20|60|RL|30|Y|63/we|40/bw|18|12|(sun)light penalty, endurance, vision
+Orc|5||20|85|Ch|35|Y|89/we|77/bw|45|11|(sun)light penalty, endurance, vision
+Orc|7||20|97|Ch|45|Y|99/we|85/bw|53|23|(sun)light penalty, endurance, vision

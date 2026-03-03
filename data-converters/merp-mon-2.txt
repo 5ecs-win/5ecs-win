@@ -1,0 +1,282 @@
+﻿Barron Owls	2	1-5	S	FA/FA	20	No/l	50	35SCl/10SPi	Normal Nocturnal predators.
+Bitterns	1	1-20	S	MD/MD	15	No/l	30	20SCl/10SPi	Normal,Fishing birds.
+Black Swans	3	1-50	M	MF/SL	35	No/l	20	20MBa/25SPi	Passive, Large for Swans.
+Cavern Wings	1	2-100	S	FA/VF	8	No/l	50	50SCl/40SBi	Aggressive +/-8 to Critical results if foe surprised.
+Chamber Birds	2	21-30	S	VF/FA	11	No/l	60	50SPi/35MCl	Shy +/-5 to Crit results if foe surprised.
+Cliff Buzzards	2	2-10	S	VF/NF	30	No/l	50	40MCl/25SPi	Aggressive. Band together against foes.
+Crakes/Coots	1	1-50	S	VF/FA	15	No/l	50	30SPi	Normal Very adaptable.
+Echo Hawks	3	1-2	S	VF/BF	27	Ne/l	65	50MCl/40MPi	Opportunistic. Often found near Green-flower vine.
+Flying Foxes	T	1-20	§	VF/VF	10	Ne/l	50	20SBi/20TCl	Normal	Good	eyesight	and	smell.
+Great Eagles	30	1-10	H/La	VF/VF	300	RL/IT	90	120HCl/100LPi/100LBa	Good,	very	intelligent.	Use	Large	Crits
+Grest Falcons of Ardor	15	1-2	H/II	VF/VF	150	SL/4	60	95LCl/70MPi/60MBa	Fierce.	Mounts	of the	Lords	of	Air
+Grest Falcons of Mirkwood	10	1-2	L/I	VF/VF	100	SL/4	60	90LCl/60MPi/50MBa	Normal	Rare.	Very	manoeuvrable.
+Golodos	1	1-100	M	MD/MD	40	No/l	20	35SPi	Passive.	Aggressive	during	mating	season.
+Gorcrows	1	5-50	S	FA/MF	20	No/I	55	10SPi/10SCl	Hungry.	Attracted	to	shiny	things.
+Grass Grouses	0	1-10	T	FA/FA	8	No/l	70	10TPi	Passive,	Standard	gamebirds,
+Great Bats	5	1-20	M	VF/VF	60	No/3	60	75MBi/60MCl	Aggressive.	Nocturnal	predators.
+Great Green Pheasants	1	1-5	S	MF/FA	15	No/l	40	30SBa/20SPi	Normal	 Sport	beautiful	plumage.
+Green-winged Crows	1	2-40	S	FA/MF	15	No/l	55	10SPi/15SCl	Lively.	Attracted	to	shiny	things.
+Hunting Bats	2	10-30	S	VFVF	20	No/l	50	50SBi	Aggressive.	Carry	disease.
+Jatewoones	9	1	L	FA/VF	120	No/I	30	80LPi/70LCl/50LBa	Protective.	Huge	marsh	birds.
+Kingishers	T	1-50	T	VF/FA	8	No/l	60	20TPi	Normal.	Small,	attractive	waterfowl.
+Kirinkir	0	1-2	T	FA/MF	5	No/l	55	5TPi	Passive.	Small,	scarlet	songbirds.
+Orao	6	1-4	L	VF/VF	120	No/l	30	81MCl/60SPi	Aggressive.	Large	Desert	Eagles.
+Pied Swans	1	2-40	M	MF/SL	35	No/l	20	40MBa/30SPi	Normal.	Very	intelligent.
+Pond Bats	0	1-100	S	VF/VF	5	No/l	60	25TBi	Passive.	Nocturnal,	Ignore	stun.
+Ravens	4	1-30	S	VF/VF	20	No/3	50	50SCl/25MCl	Normal	 intelligent, somewhat	enchanted.
+Red Eagles	6	1-5	M	VF/FA	75	No/I	40	70LCl/45MPi	Aggressive.	Numerous.	Predators.
+Sea Eagles	5	1-5	M	VF/VF	65	No/l	45	65MCl/50MPi	Aggressive.	Fierce	predators.
+Short-eared Owl	4	1-10	S	FA/FA	20	No/l	50	50SCl/25MCl	Normal.	Rare	nocturnal	predators.
+Thrushes	0	1-2	T	VF/FA	6	No/l	60	15TPi	Curious.	Intelligent	messengers.
+Vault Shrikes	1	1-5	T	VF/BF	5	No/l	60	30TBi/40TTi/poison	Normal.	Toxic	nerve	poison	(Lvl	5).
+Vereut Eagles	3	1-5	M	FA/FA	30	No/l	35	45MCl/35SPi	Aggressive. Low flying hunters
+Carnantor	10	1-2	H/La	MF/MF	275	RL/8	40	95LBi/100HBa/85HCr	Aggressive.	Huge	ocean-dwelling	Eels.
+Cherethrynd	12	2-20	H/SL	MF/MF	550	RL/S	40	80HBa/90HBi/70HGr	Normal.	Powerful	Sperm	Whales.
+Eris Squids	1	1-2	S	MF/MF_	20	No/l	50	40SGr/30TPi	Passive.	Can	secrete	clouds	of	Ink
+Lamprey	1	1-4	S	SL/SL	15	SL/3	20	40SGr/+bleeding	Normal 	If attached,	suck	2	hits/round.
+Leeches	0	1-50	T	SL/SL	4	No/l	5	30TGr/+bleeding	Normal.	If	attached,	suck	1	hits/round.
+Merchaithrais	5	1-2	L/I	MD/FA	65	No/l	35	60MSt/50MBa/special	Aggressive	Giant	Rays, attacks:	poison	&	shock.
+Mulkinar	6	1	L/La	CR/SL	225	Pl	20	30HCr/special	Passive.	Giant	Clams,secret acidic	ink
+Nimaergyrth	5	1-10	L	FA/FA	180	SL/4	30	100LBi	Aggressive.	Endors	deadliest	sharks.
+Pike	2	1	M	MF/FA	75	No	35	45MBi	Aggressive	Freshwater	predators.
+Sarnumeni	7	1-2	L/I	MF/MF	210	RL/I2	40	75MBi/90LBa/75LCr	Aggressive,	Huge	freshwater	Eels.
+Sturgeon	5	1-2	M	ME/MF	140	SL/S	10	70MBa/50SBi	Passive	Prized	for	their	roe	(eggs).
+Ulmodili	8	10-200	L	VF/FA	110	No/l	50	70MBa/60MBi	Playful	Very	intelligent	aquatic	mammmals.
+Vessino Clams.	0	1-20	T	CR/CR	5	Pl/iz	0	0TCr	Passive. Rare	mollusks.
+Wels, Small	3	1-5	M	SL/MF	160	SL/3	30	60MBa/60MGr	Normal.	Ugly	bottom feeders.
+Wels, Large	7	1-2	L/I	VS/MD	260	SL/4	15	90LBa/90LGr/swallow	Normal.	Ugly	bottom feeders.
+Andodailion	3	10-100	S	MF/MD	55	SL/7	30	30SCl/30SBa/25TBi	Normal	 Social,	nocturnal	lizards.
+Angusaiweli	2	1-20	S	VF/FA	25	SL/+	50	30SBi/40SSt/55Cl/poison	Aggressive.	Poisonous	carnivores.
+Blue Terrapins	5	1-4	M	MF/MF	150	RL/I2	20	65MBi/poison/40MCl	Protective.	Lvl	2	Muscle	poison.
+Coireals	2	1-2	S	SL/VF	30	No/l	40	55SSt/poison	Passive.	Lvl	10	Nerve	poisson
+Egils Vipers	8	1-2	L	VF/VF	100	SL/4	60	75MBi/special	Aggressive	Spits	poison	up	to	30 feet
+Grey Flyers	0	10-100	T	VS/SL	5	No/l	20	0TBi/0TCl/poison	Protective.	Lvl	3	Muscle	poison
+Green Asps	3	5-50	S	SL/VF	20	No/3	40	35SSt/poison	Aggressive	Lvl 5 conversion poison
+Land Tortoises	4	1-2	M	SL/MD	75	RL/Z	30	55MPi	Passive	Very	slow	and	inoffensive.
+Marsh Adders	1	1-2	S	MD/VF	20	No/l	60	50TSt/poison	Aggressive,	Lvl	10	Muscle	poison
+Marsh Crocodiles in water	3	1-5	L	MD/MD	120	SL/7	10	80LBi/80MGr/drown	Aggressive.	Uses	grappling	bite	to	drown	foes.
+Marsh Crocodiles on land	3	1-5	L	VS/SL	120	SL/7	O	40MBi/60MBa/80LBi	Aggressive,	Uses	LBi	if	MBa	knocks	foe	down.
+Nethairin	1	1-2	S	SL/VF	30	No/l	20	40SSt/poison	Aggressive,	Very	toxic	poison	(Lvl	6)
+Nethairin Erdyr	1	1-2	S	SL/BE	20	No/l	30	30SSt/poison	Aggressive.	Toxic	poison	(Lvl 5)
+Nethraich	1	1-2	S	MD/BF	25	No/l	25	35SSt/poison	Protective.	Lvl	2	Muscle	poison.
+Arnathrach	4	1-2	M	MD/EA	75	SL/S	20	60MSt/poison/40MGr	Royal	Nathrach.	Lvl	6	Muscle	poison.
+Otrovativi	1	1-2	S	MD/VF	30	No/l	30	35SSt	Normal	 Lvl	25	Nerve	poison.
+Petlavi	6	1	L/I	VS/MF	120	SL/3	10	80MBi/70MGr/100LCr	Normal.	Uses	LCr	if	MGr	successful.
+Rock Vipers	1	1-4	S	SL/BF	15	No/l	50	20SSt/poison	Passive.	Incredibly	toxic	poison	(Lvl	20)
+Sea Crocodiles	7	1-2	H/La	MF/MF	245	RL/II	30	100LBi/110LBa/90LGr	Aggressive,	Will	attack	ships.
+Shaking Asps	2	1-2	S	SL/VF	15	No/3	50	25SSt/poison	Normal,	Potent	poison	(Lvl	8)
+Slow-fangs	10	1-2	L	MD/MF	120	RL/I2	30	80MGr/90MBi/poison	Aggresive.	Uses	MBi	if	LGr	grasps	foe,	Lvl	2	Muscle	poison.
+Trusavi	1	1-2	T	SL/SL	10	No/l	30	0TBa/50TSt/poison	Passive,	If	TBa	successful	(or	if	touched)	the	TSt attack	s	made,	Lvl	4	poison.
+Umakavi	1	1-10	T	SL/SL	8	No/l	30	0TBa/poison	Passive.	Lvl	10	contact	poison.
+Zambavi	1	1-2	M	MF/VF	30	No/l	30	40MGr/poison	Aggressive,	“Snare”	Snake,	Lvl	7	poison.	=
+Zurkuvi	1	1-2	S	MD/FA	25	No/3	40	30SCl/poison	Normal.	Lvl 1	contact	Nerve	poison
+Cliff Hornet	1	10-100	T	VF/VF	1	No/l	40	0SSt/20MSt/poison	Protective.	Stings can	cause	death.
+Gelyngyl	5	2-20	M	MD/MF	45	SL/8	30	45SPi/20SSt/poison	Aggressive.	Attack	in	organized	groups.
+Ground Bees	0	4-400	T	MD/VF	1	No/l	40	0TSt/0TPi/special	Protective.	10	may	make	a	20TSt	attack.
+Mabelmaikli	4	1-5	M	MF/ME_	155	RL/II	25	80MPi/50LPi	Aggressive.	Crab/squids,	ignore	stun
+Neekerbreekers	0	3-300	T	FA/MD	1	No/l	45	10TBi/disease	Hungry.	Noisy,	cricket like	insects.
+Morgai Flies	0	1-100	T	VF/FA	2	No/t	35	15TBi/disease	Aggressive,	Vicious,	parasitic	insects.
+Ulcercain	0	1-100	T	VF/VF	3	SL/3	45	25TPi/poison	Aggressive	(Warriors).	Centipede-like.
+Astabarhéli	2	10-100	M	VF/FA	95	No/3	30	35MHo/30MTs	Timid.	Antelope-like,	inquisitive.
+Aurych	2	1-10	L	MD/MD	140	No/3	20	50MHo/50LTs	Domesticated.	Cattle,	passive	until	disturbed.
+Caru	2	20-200	M	VF/FA	70	No/3	40	20MHo/20MTs	Timid.	Deer,	males	&	females	have	horns.
+Culcarnix	1	1-6	S	MD/MD	12	No/3	0	10SBi/15SCl	Passive.	Ground-dwelling	rodent.
+Cunara	0	10-100	S	MF/MD	10	No/3	10	5SBi/20SCl	Timid.	Gophers”	like	in	large	colonies.
+Dappled Deer	1	2-20	M	FA/MF	50	No/d	45	20SHo/35STs	Aggressive.	Hardy	and	pugnacious.
+Fiara	1	1-10	M	VF/VF	45	No/3	35	155Ho/25TTs	Timid.	Most	common	wild	herbivore.
+Fintonarki	2	1-20	M	FA/FA	70	No/3	15	50MHo/40MBa/30STs	Normal.	Wild	goats,	immune	to	poisons.
+Goral	2	1-2	M	FA/FA	55	No/3	40	50MBa/45MTs	Normal.	Wild,	golden	bighorn	Sheep.
+Kine of Araw	5	1-10	L	MD/MD	135	No/3	30	100LHo/80LBa/90LTs	Normal.	Large,	white	cattle.
+Losrandir	2	10-100	M	FA/MF	90	No/3	20	40MHo/35MTs	Normal.	Hardy,	gregarious	Deer.
+Nimfiara	4	1-10	L	FA/FA	110	No/S	25	55MHo/65MTs	Normal.	Wily,largest	of	Endor's	Deer.
+Rutorassi	3	2-20	M	FA/FA	65	No/3	30	60MBa/50MTs	Normal.	Largest	of	Endor's	Sheep.
+Stetanavi	2	1-2	M	MD/VF	50	No/d	40	40SBi/25SCl	Playful.	Mischievous,	Otter-like	creatures
+Wild Goats	3	1-2	M	FA/FA	60	No/l	25	40MHo/30MBa/30MTs	Normal.	Agile	climbers	and	swimmers.
+Andamundar	7	2-20	H/La	FA/FA	325	RL/I2	30	80HBa/80HHo/80HTs	Normal.	Elephants,	carry	capacity:	1000	lb
+Devevi, runners	4	1-10	L	MF/MF	130	No/3	30	30MBi/25MBa	Normal,	Camels,	carry	capacity:	225	lb
+Devevi, workers	3	1-10	L	MD/MD	110	No/3	10	40MBi/30MBa	Normal.	Camels,	carry	capacity:	400	lb
+Elven Horses	10	1-2	L/I	BF/VF	180	SL/4	60	95MCr/80MTs/75MBi	Normal. Intellgent,	carry	capacity:	450	lb
+Horses of Mordor	9	1-9	L/I	VF/VF	210	SL/4	50	110LCr/95LTs/special	Hostile	. Vicious,	carry	capacity:	600	lb
+Losandamundar	7	2-10	H/La	FA/FA	350	RL/I2	25	85HBa/85HHo/85HTs	Normal.	Elephant,	carry	capacity:	1100	lb
+Marsh Ponies	2	1-10	M	FA/MF	100	No/3	20	30MBa/30LTs	Normal.	Sturdy,	carry	capacity:	200	lb
+Mearas	8	1-2	L	VF/VF	170	SL/4	50	100MCr/80MTs/70MBi	Normal,	Intelligent,carry	capacity:	450	lb
+Mumakil	7	1-10	H/La	MF/FA	400	RL/I2	25	95HBa/95HHo/95HTs	Normal.	Elephant,	carry	capacity:	1400	lb
+Wild Horses	4	1-20	L	FA/FA	120	No/3	40	40MCr/30MTs/40SBi	Normal.	Hardy,	carry	capacity:	300	lb
+Zurafy	6	1-10	L	MF/FA	135	No/3	45	75MHo/60MCr/50MTs	Normal.	Deer-like,	carry	capacity:	400	lb
+Black Bears	5	1-5	LA	ME/MF	150	SL/8	20	65LGr/60LCl/40MBi/70MBa	Aggressive	Nocturnal	hunters.
+Black Minks	1	1-10	M	VF/VF	50	SL/3	60	50MBi	Aggressive	Fierce.Ignore	stun
+Blue Bears	7	1-6	L/I	MF/MF	200	SL/8	25	80LGr/70LCl/30MBi/90LBa	Aggressive.	Nocturnal	hunters.
+Blue Otters	4	1-3	M	MF/MF	80	No/3	30	40MCl/40MBi	Normal.	Eat	fish	and	shellfish
+Cave Bears	12	1-5	L/La	MF/FA	300	SL/s	40	95HBa/90LCl/85LGr/90LBi	Normal.	Huge,	retiring	creatures.
+Chetmig	5	1-2	L	FA/VF	150	SL/4	30	75LCl/90MBa/100LBi	Aggressive.	Great	cat,	nocturnal	predators.
+Cliff Lions	5	1-2	M	FA/MF	140	SL/4	20	85LBi/70MCl	Normal.	Snowy	white	solitary	creatures.
+Death Shrews	1	1-5	T	MD/FA	2	RL/IL	70	45TTi/disease	Aggressive	Emit		foul-smelling	spray
+Dire Wolves,Adult	4	2-20	L/I	VF/FA	80	SL/3	45	75LBi/45MCl	Aggressive.	Attack	in	cooperative	groups.
+Dire Wolves,Young	2	1-20	M	VF/FA	60	SL/A	40	60LBi	Social	 animmals,do	not	fear	people
+Dunmens Dogs	1	1-10	S	MD/MF	40	No/3	40	45SBi	Domesticated.	Marginally	capable.
+Fishing Cats	1	1-5	S	VF/VF	50	No/3	50	30MCl/20SBi	Normal. Kittens	can	be	domesticated.
+Gich	2	1-2	5	FA/NF	45	No/3	50	40MBi/40SCl	Normmal	Large	Foxes,	very	common.
+Giane Martens	4	1-2	M	VF/VF	75	No/3	50	60MBi/50MCl	Aggressive.	Crazy,	mean,	fierce.
+Glutani	4	1-2	S	FA/VF	50	No/3	50	50MBi/45MCl	Aggressive.	Walverine like	creatures.
+Grass Cats	3	1-10	M	VF/VF	100	No/3	50	40MCl/60MBa/60MBi	Aggressive,	Long	legged	plans	cat.
+Gray Wolves	3	2-12	M	FA/FA	110	SL/3	30	55LBi/30MCl	Aggresive	Social,	hunt	in	packs.
+Highland Lynxes	3	2-10	M	VF/VF	70	No/3	55	45MCl/30MBi	Aggressive.	Live and	hunt	in	groups.
+Hounds	3	1-20	M	VF/FA	65	No/3	40	45MBi	Domesticated.	Found	with	Men/Hobbics.
+Lisicavi	3	1-5	S	FA/VF	45	No/3	50	60SBi	Normal	 Small,	large-eared	Fores.
+Madratines	2	1-2	S	MF/FA	45	No/3	60	30SCl/25SBi	Normal.	Shy,	nocturnal	cat	like	foxes.
+Marsh Masiffs	3	1-8	M	MF/FA	60	SL/3	45	50MBi	Domesticated.	Fearless,loyal	Dogs.
+Merisc Tyka	1	7-12	S	FA/FA	55	SL/3	40	45MBi	Normal.	Wild,	cowardly	dogs.
+North Bears	10	1-2	L/II	FA/FA	240	SL/4	45	75LCl/80LGr/90LBi/90LBa	Normal.	White,	excellent	swimmers.
+Red Foxes	2	1-2	S	FA/VF	45	No/3	50	40SBi/35SCl	Normal.	Wily,canny	thieves.
+Red Wolves	5	2-20	M	VF/FA	130	SL/4	45	70LBi/55MCl	Aggresisve.	Intelligent,ruthless	canines.
+Sheep Hounds	5	1-5	M	VF/VF	140	No/4	55	80MBi	Domesticated.	Loyal,	intelligent,	fierce.
+Sloth Bears	11	1-5	L/La	SL/MD	325	SL/S	10	100HBa/95LCl/60LGr/60LBi	Normal.	Huge	sloth-iike	creatures.
+Spotted Lions	5	1-5	M	FA/MF	140	SL/4	25	85LCl/70MBi/50MBa	Normal.	Rare,	extremely	cunning.
+Uncavi	3	1-2	M	FA/VF	100	No/3	35	80LCl/50LBi	Aggressive,	Leopard	like	cat
+Undarlaif	3	1-20	M	FA/FA	90	No/3	40	70MBi/30MCl	Aggressive.	Large,	black	Jackals.
+Vuk	3	6-30	M	FA/FA	110	No/3	30	70Bi	Aggressive.	Wild	hill	Dogs
+War-wolves	7	1-10	L/I	VF/VF	170	SL/4	50	85LBi/65MCl	Aggressive.	Bold,	violent,	cunning	Dogs.
+White Foxes	1	1-5	S	MF/MF	40	No/3	60	35SBi/25SCl	Normal.	Race,	shy	live	in	burrows.
+White Wolves	8	1-20	M	VF/VF	170	SL/4	70	90LBi/80LCl	Aggressive.	Most	dangerous	of	all	Wolves,
+Boars	3	1	M	FA/MF	120	SL/4	30	50MHo/50MBa/40STs	Aggressive,	Mean-tempered	and	solitary
+Fen Boars	2	1-2	M	FA/MF	100	No/3	30	40MHo/30MBa/20STs	Aggressive.	Dangerous	if	cornered.
+Grey Apes	5	1-10	L	MD/FA	100	No/3	20	50SBi/60LGr/70MBi	Normal.	If	LGr	grasps	foe,	use	MBi
+Majmun	1	2-200	S	MF/FA	25	No/s	40	30SBi	Normal.	Attractive,lively	Monkeys.
+Slirdu	7	1-10	H/La	VF/FA	240	No/l	30	95HGr/120HPi/special	Aggressive	Squid-like.	If	HGr	gets	a	Crit,use	HPi
+Uvag-Aak	6	1-5	M	MD/MF	140	No/3	20	90MBa/65LGr/85LBi	Aggressive.	Apes.	1f	LGr	grasps	foe,	use	LBi.
+Demon-whales	9	1-5	H/La	FA/FA	500	SL/8	25	120HBa/150HBi	Toothed,	white	denizens	of	the	Tce	Bay.
+Fell Turtles	15	1	H/SL	MD/MD	250	PL/I9	35	120HPi/140LBa	Rare	giant	snapping	turtle.
+Ninevet	5	1	L/I	MD/VF	130	SL/7	10	70LBa/80LGr/40MBi	If Lgr gets	a crit,	will	try to	drown	prey.
+Red Jaws	4	1-10	M	FA/VF	90	SL/7	35	50LBi/50LGr/60LCr	Ugly,	scaleless	fish	of	the	depths.
+Vodyanoi	1	1-2	M	MF/MF	55	SL/3	35	60HBi/swallow/special	Aquatic	carnivore.	Resembles	giant	frog.
+Watcher in the Water	35	1	H/SL	MD/MD	400	RL/IT	40		150HGr/150HPi	Freshwater	Kraken.	1-5	HGr	attacks
+Evil Huorns	25	1-5	H/La	VS/VS	400	Pl/20	0	80HBa/70HGr/100HCr	Evil	IF HGr	grabs	prey,	HCr	next	round.
+Evil Trees	3	1-10	L/I	—/MD	50	RL/UI	10	20SGr/special	Hungry.	Tgnore	“stun”	resuls.
+Balrogs	30	1	H/SL	VF/VF	400	Pl/20	90	275we/120pa/spells	Evil	May	immolate
+Lassaraukar, Lesser	15	1-5	M/II	BE/BF	175	RL/IZ	50	120cb(2x)/poison	Evil.Statistics are special. see	text.
+Lassaraukar, Greater	25	1	M/La	BE/BF	225	RL/I2	50	150cb(2x)/poison/100bolt		Evil.Statistics are special. see	text.
+Vampires of Morgoth	25	1	M/La	VF/VF	210	No/3	80	100LCl/90LBi/80LBa	Evil. Mighty shapechanging demons
+Cave Drakes	13	1	H/SL	FA/FA	250	PL/I9	40	90HBi/50HCl/50HBa/80HHo	Snakk	Cold drakes.
+Cave Worms	10	1	H/La	SL/MD	160	RL/I2	20	90HGr/swallow/110HHo	Limbless	Cold-drakes.
+Cold-drakes	30	1	H/SL	FA/FA	500	Pl/20	50	120HBi/120HCl/120HBa/80HHo	Wingless
+Tce-drakes	30	1	M/SL	FA/FA	450	Pl/20	55	110HBi/110HCl/110HBa/100HHo/90lBr		Good	swimmers
+Land Drakes	18	1	H/SL	VF/FA	350	Pl/I9	40	100HBi/100HCl/100HBa/70HHo	Small	Cold-drakes.
+Winged Cold-drakes	30	1	H/SL	FA/FA	500	Pl/I9	60	90HBi/130HCl/90HBa/100HHo/60CBr		Graceful	fliers.
+Fire-drakes	35	1	H/SL	VF/FA	450	Ch/I6	50	100HBi/140HCl/110HBa/70HHo/100FBr		Spell users,
+Marsh-drakes	15	1	H/SL	BF/VF	200	RL/I2	50	60HBi/100HCl/60HBa/70HHo/60GBr	Small	Fire-drakes.
+Rain-drakes	12	1	H/SL	FA/FA	200	RL/I2	40	100HBi/70HCl/90HBa	Small	Water-drakes.
+Water-drake	18	1	H/SL	FA/FA	240	Pl/20	40	150HBa/120HGr/140HBi/100WBr	Sea	Serpents
+Sand Drakes	8	1	L/SL	FA/FA	150	No/4	25	100HBi/70HCl/90HBa	Solitary	winged	shapechangers.
+Were-worms	8	1	H/SL	FA/FA	350	RL/I2	50	110HBi/95HCl/90HBa	Powerful	spell-users	and	shapechangers.
+Crebain	3	3-30	S	FA/FA	25	No/i	50	20SPi/20SCl	Large	black	crows,excellent spies.
+Fell Beasts	20	1-10	L/La	FA/FA	240	RL/IZ	50	90HCl/90LGr/90LBa/60LBi	Small,	Dragon-related	monsters.
+Giants	12	1-5	L/La	SL/MD	250	RL/IT	20	95we/80LGr/110LCr/80ro(175’)	If LGr gets crit, use LCr. *3 Dam with weapon. Rock attack is LCr
+Trolls, Cave	12	1-5	L/la	MD/MD	220	RL/Il	25	100HCl/85we/80ro(150’)	Hostile, Rock Attack is LCr.
+Trolls, Forest	6	1-6	L/II	MF/MD	I50	RL/T	10	70LCl/60LBi/40we/50ro(80’)	Hostile. Rock attack is MCr
+Trolls, Hill	10	1-5	L/La	SL/MD	175	RL/II	20	95LBa/85LCl/50we/60ro(120’)	Hostile. Rock attack is LCr.
+Trolls, Mountain	11	1-2	L/La	MD/MD	240	RL/16	40	110we/100LBa/100ro(150’)	Hostile. Rock attack is LCr.
+Trolls, Snow	13	1-2	L/La	MD/MD	180	RL/Il	30	105HCl/80HBa/70we/80ro(150’)	Hostile. Rock attack is LCr
+Trolls, Stone	7	1-6	L/La	SL/MD	150	RL/IL	15	80LBa/65LCl/40we/60ro(90’)	Hostile. Rock attack is MCr
+Trolls, Black	9	1-5	L/La	MD/MD	250	RL/16	50	120we/80LBa/70ro(150’)	Hostile. Rock attack is LCr.
+Colbran	18	1-2	L/La	VF/FA	200	CH/I6	70	150LBa/special/spell	Glowing	axemuated	manlike	form.
+Hurndaen	15	1-6	L/La	MD/MD	200	Pl/20	30	100LGr/150HCr	Iron	manlike	form.IF	LGr	grabs,	HCr	next	.
+Hurnkennec	8	1-10	L/II	MF/MD	130	Pl/IS	40	80MPi/65MHo/50MBa	Iron	Giant	Spider	form.
+Mendaen	10	1-10	L/la	SL/MD	150	Ch/I6	20	80MGr/120LCr	Stone	manlike	form.	1F	MGr	grabs,	LCr	next	crit.
+Mensharsg	5	1-10	L/A	MF/MF	80	Ch/i6	30	60LCl/50LBa/40MBi	Stone	lizard-like	form
+Pukel-men	15	1-5	M/La	MD/MF	150	Ch/I6	25	90we/60MBa	Stone	manlike	form.
+Silent Watchers	35	1-2	H/SL	—	350	Pl/20	40	special	Huge,stone,	bipedal	figures	on	thrones.
+Giant Spiders, Lesser	8	1-10	M/I	MF/FA	160	SL/4	40	70LPi/75LSt/poison	Evil	Uses	webs	to	trap	victims.
+Giant Spiders, Greater	20	1	L/la	FA/VF	350	RL/I2	60	120HPi/90LHo/poison	Evil.	Very	intelligent,	many	use	spells.
+Hummerhorns	3	1-20	M	VF/FA	35	No/l	50	50SSt	Aggressive	Resemble	giant	Wasps.
+King Spiders	3	1	S	MD/MF	55	Ch/I6	20	40MPi/poison	Aggressive	Traps	victims	in	pits.
+Barrow Wights	15	1	M/La	SL/VF	165	No/l	75	100we/90LBa/special	Protective.	They	haunt their	own	tombs.
+Corpse Candles	7	1	M	—	100	No/l	30	spell/special	Cruel.	Drain	4	CO/end	(1	target)
+Corpse Lanterns	10	1	M/M	—	135	No/l	40	spell/special	Cruel.	Drain	5	CO/end	(1	target)
+Ghosts, lesser	5	1	M/La	FA/FA	100	No/l	30	60MBa/50we/special	Belligerent.	Drain	3	CO/rnd	(I0R).
+Ghosts, Greater	15	1	M/La	VF/VF	165	No/l	50	110we/90LBa/special	Belligerent.	Drain	5	CO/rnd	(10R).
+Ghouls, lesser	1	1-10	M/La	SL/MF	25	SL/4	10	25SBa/30SCl/20SBi	Protective.	Stupid,	infects	wounds.
+Ghouls, Greater	3	1-5	M/l	MD/MF	50	SL/4	10	40SBa/50SCl/45we	Protective.	Stupid,	infects	wounds.
+Lesinavi	2	1-10	M/1	MD/MF	50	No/l	20	80MBa/30SBi	Belligerent.	Ghoul	like	desert	monsters.
+Mewlips	4	2-20	M/	FA/MD	60	No/l	35	50we/75MBi/special	Evil	Semi-aquatic	Undead.
+Sand Devils	3	1	L/	FA/FA	75	No/l	10	Special	Hostile.	Whirlwind,	attacks	as	sandblast
+Skeletons, minor	1	2-20	M	VS/MD	25	No/l	0	25we/40MBa	Hostile,	Will	attack	until	destroyed.
+Skeletons, lesser	3	1-10	M/	MD/MF	55	No/l	10	40we/50MBa	Hostile,	Will	attack	until	destroyed.
+Skeletons, greater	5	1-5	M/l	MF/EA	100	No/l	30	50we/60MBa	Hostile,	Will	attack	until	destroyed.
+Skeleton Lord	8	1	M/L	MF/VF	135	No/l	70	95we/70LBa/spells	Hostile.	Casts	“Fear”	(10’R)
+Spectres, lesser	5	1	L/I	FA/VF	150	No/l	100	40Bolt(5’)/special	Hostile.	Drain	8	CO/rnd	(10’R).
+Spectres, greater	10	1	L/La	FA/VF	200	No/l	75	80Bolt(5’)/special	Hostile.	Drain	10	CO/rnd	(10’R).
+Swamup Stars	9	1	S/	VF/VF	30	No/l	70	special	Belligerent.	Drain	6	CO/rnd	(1	target).
+Ta-Fa-Lisch	7	1-10	M	MF/VF	85	No/l	45	95MCl/70we/special	Belligerent.	5th	Lvl	Fear spell
+Wargs	8	4-20	L/l	VF/VF	180	SL/4	60	75LBi/60LCl	Hostile.	Affected	by	*stun”	and	hits/rnd.	)
+Werewolves	12	1	M/La	VF/AF	250	SL/4	75	120LBi/100MCl	Evil.	Wolf-lke	creations	of	Morgoth
+Thorondor	60	1	M/SL	VF/VF	550	RL/12	100	300HCl/250HPi/250HBa	Lord	of	the	Eagles	of	Crissaegrim.
+Gwaihir	45	1	H/SL	VF/VF	350	RL/II	80	180HCl/150HPi/150HBa	Lord	of the	Eagles	of	the	Misty	Mt.
+Landroval	35	1	H/SL	VF/VF	300	RL/IT	90	150HCl/120HPi/140HBa	Brother	of	Gwaihir
+Sulroch	15	1	H/	VF/VF	150	SL/4	80	110LCl/70MPi/60MBa	Mount of	Sulherok	of	the	Court	of	Ardor.
+Elros	20	1	H/l	VF/VF	180	SL/&	75	130LCl/90MPi/80MBa	Mount	of	Valkrist	of	the	Court	of	Ardor.
+Gilsul	18	1	H	VF/VF	170	SL/4	75	120LCl/50MPi/70MBa	Mount of	Valkrist	of	the	Court	of	Ardor
+Roac	6	1	S	EA/FA	30	No/3	40	55SCl/35MCl	Son	of	Carc	of	Erebor
+The Old Thrush	3	1	T	FA/BA	15	No/l	50	25TPi	Old	Thrush	of	Erebor
+Nahar	45	1	L/SL	BF/VF	400	SL/4	120	200LCr/175LTs/150LBi	Elven	Horse,steed	of	Orome.
+Nimros	15	1	L/A	BF/VF	200	SL/4	80	100MCr/80MTs/90MBi	Elven	Horse,steed	of	Glorfindel.
+Rochallor	25	1	L/Aa	BF/VF	300	SL/4	100	160LCr/110MTs/110MBi	Elven	Horse,steed	of	Fingolfin.
+Mordor Horse	9	1	LM	VF/VF	210	SL/4	50	110LCr/95LTs/special	Mount	of	the	Mouth	of	Sauron.
+Felarof	15	1	L/l	BF/VF	250	SL/4	70	150LCr/120MTs/100MBi	Ancestor	of	the	Mearas.
+Shadowfax	10	1	L/A	BF/VF	210	SL/4	60	120MCr/95MTs/90MBi	Mearas,	steed	of	Gandalf.
+Snowmane	10	1	L	VF/VF	170	SL/4	50	110MCr/90MTs/80MBi	Mearas,	seed	of	King	Théoden.
+Huan	18	1	L/la	VF/BF	350	SL/4	120	220LBi/150LBa	One	of	Orome's	hunting	Dogs.
+Everholt Boar	7	1	M	VF/FA	190	SL/4	55	110MHo/90MBa/60STs	Boar	of	Everholt,siayer	o	King	Fola.
+Old Man Willow	25	1	H/la	—/VS	450	Pl/20	0	75HGr/95HCr/special	Huron.	If	HGr	grabs	prey,	HCr	next	round.
+Sleeping Root	50	1	H/SL	—/MD	600	PI/20	0	60HGr/100HCr/special	Evil	Tree.	If	HGr	grabs	prey,	HCr	next	round.
+Gothmog	100	1	H/SL	VF/VF	666	Pl/20	115	455wh&th/375pa&ro/spells	Chief	of the	Balrogs.	Also	405ma.
+Durin's Bane	36	1	H/SL	VF/VF	420	Pl/20	90	275wh&th/120pa&ro/spells	The	Balrog	of	Moria.
+Lungorthin	90	1	H/SL	VF/VF	566	Pl/20	100	415wh&th/325pa&ro/spells	Lord	of	Morgoth's	Guard.
+Slyardach	17	1	M/la	FA/VF	170	No/I	100	100da/150da(th)/poison	The	Dindae	of	Nan	Gulduin.
+Demons of Aglarond	10	1-4	L/l	FA/FA	150	RL/IL	40	150LCl/100MBa/100MBi	Remnants	of	Morgoths	scouting	units.
+Lesh-Y	30	1	M/La	FA/VF	250	RL/I	80	250wh/200LBa/180we	Alchemist	o	the	Court	of	Ardor.
+Mourfuin	35	1	L/la	VF/VF	300	RL/I2	60	300th/250wh	The	*Enforcer”	of	the	Court	of	Ardor
+Razarac	20	1	L/l	BF/BF	250	RL/I2	40	80HCl/120LBa/special	Desert	Demon,	3	strikes/rnd.
+The Winds of Taurang,Aur	6	1	L/l	VF/FA	60	SL/&	20	70ky/50thr.ky/poison	Demons	of	the	Wind	and	Al	they	serve
+The Winds of Taurang,Kax	12	1	L/A	VF/FA	100	SL/4	30	100ky/70thr.ky/poison	Tuarclax	of	the	Cour	of	Ardor.	The
+The Winds of Taurang,Eos	18	1	LA	VF/FA	130	SL/A	40	120ky/90thr.ky/poison	“ky=kynac”	attacks	2	3	eaper	and	throws
+The Winds of Taurang,Gan	24	1	LA	VF/FA	160	SL/4	50	150ky/100thr.ky/poison		to a 150’	range	(the	“theky”	atack).
+The Winds of Taurang,Ior	30	1	LA	VF/FA	200	SL/4	70	180ky/100thr.ky/poison
+The Winds of Taurang,Kel	36	1	LA	VF/FA	240	SL/4	80	200ky/120thr.ky/poison
+Ungoliant	450	1	H/SL	BF/BF	1238	PI/20	275	450HPi/special	Before	draining	the	Wells	of	Varda
+Thurinwehil	35	1	M/La	VF/VF	230	No/3	90	spells	Messenger	of	Anghand
+Agburanar.	31	1	H/SL	VF/VF	463	Pl/20	50	120HBi/130HCl/110HBa/80HHo	Black	Cold-drake.
+Ando-anca	49	1	H/SL	FA/FA	540	Pl/20	40	150HBi/120HCl/115HBa/90HHo/spells	Red	Cold-drake.
+Culgor	30	1	H/SL	VF/VF	401	Ch/I6	40	120HBi/130HCl/110HBa/80HHo	Red-gold	Cold-drake.
+Emchangodogo	30	1	H/SL	VF/VF	300	RL/I2	60	110HGr/70HCl/70HBi	White	Cave-drake.
+Gostir	40	1	H/SL	FA/FA	475	Pl/20	45	130HBi/125HCl/100HBa/75HHo/spells	White	Cold-drake.
+Haurnfile	33	1	H/SL	VF/VF	456	Pl/20	55	115HBi/125HCl/130HBa/85HHo	Red-grey	Cold-drake
+Hyarleuca	28	1	H/SL	VF/VF	329	RL/IZ	60	90HBi/100HCl/85HBa/75HHo	Brown	Cold-drake.
+Klyaxar	29	1	H/SL	VF/VF	365	RL/I2	65	95HBi/105HCl/95HBa/70HHo	Brown-red	Cold-drake.
+Lumthanc	43	1	H/SL	EA/FA	510	Pl/20	55	145HBi/125HCl/130HBa/100HHo/spells	Grey-white	Cold-drake.
+Lastalaika	37	1	H/SL	VF/FA	487	Pl/20	45	135HBi/120HCl/100HBa/80HHo	Sivery-white	Cold-drike.
+Merkampa	47	1	H/SL	VF/FA	533	Pl/20	60	110HBi/130HCl/120HBa/95HHo/spells	Light	grey	Cold-drake.
+Niocupa	30	1	H/SL	VF/VF	360	RL/12	70	120LGr/80HCl/75HBi	Pale	grey	Cave-drake.
+Scatha	52	1	H/SL	VF/NE	555	Pl/20	65	150HBi/140HCl/120HBa/110HHo	Red	Cold-drake.
+Lomaw	35	1	H/SL	VF/VF	467	Pl/20	50	120HBi/125HCl/90HBa/60HHo/100IBr	Grey-white	Ice-drake.
+Nimanaur	33	1	H/SL	FA/FA	451	Ch/16	60	100HBi/100HCl/85HBa/50HHo/95IBr	Blackish-grey	Ice-drake.
+Bairanax	34	1	H/SL	FA/FA	447	Ch/I6	50	140HBi/120HCl/100HBa/60HHo	Brown-red	Cold-drake,	winged
+Daelomin	33	1	H/SL	FA/FA	428	CH/l6	45	100HBi/120HCl/110HBa/70HHo/spells	Black	Cold-diske,	winged.
+Dynca	35	1	H/SL	VF/NF	422	RL/I2	70	125HBi/135HCl/95HBa/75HHo	Black-grey	Cold-drake,	winged.
+Khuzadrepa	37	1	H/SL	MD/MD	460	Ch/I6	60	130HBi/100HCl/160HBa/65HHo/spells	Black	Cold-drake,	winged.
+Ancalagon	100	1	H/SL	VF/VF	750	Pl/20	125	355HBi/325HCl/350HBa/275HHo/150FBr	Black	Fire-drake,	winged.
+Angurch	36	1	H/SL	FA/FA	471	Ch/I6	60	110HBi/125HCl/115HBa/65HHo/100FBr	Black-gold	Fire-drake,	winged
+Glaurung	85	1	H/SL	VF/VF	600	Pl/20	110	285HBi/265HCl/310HBa/245HHo/130FBr	Black	Fire-drake,	winged
+Itangast	55	1	H/SL	FA/FA	590	Pl/20	60	160HBi/110HCl/135HBa/75HHo/90FBr	Black	blue	Fire-drake.
+Leucaruth	34	1	H/SL	FA/FA	435	Ch/I6	50	125HBi/135HCl/100HBa/70HHo/90FBr	Red	Fire-drake.
+Ruingurth	36	1	H/SL	SL/SL	495	Pl/20	30	100HBi/95HCl/95HBr/50HHo/100FBr	Red-brown	Fire drake
+Smaug	66	1	H/SL	VF/VF	66	Pl/20	75	125HBi/130HCl/150HBa/95HHo/120FBr	Red-gold	Fire-drake,	winged
+Throkmaw	46	1	H/SL	FA/FA	523	Ch/I6	60	110HBi/120HCl/125HBa/90HHo/100FBr	Black	Fire-drake,	winged.
+Uruial	30	1	H/SL	MD/MD	439	Ch/I6	55	105HBi/155HCl/100HBa/60HHo/90FBr	Red	Fire-drake.
+Utumkodur	75	1	H/SL	VF/VF	555	Pl/20	85	100HBi/155HCl/135HBa/95HHo/120FBr	Golden	Fire-drake,	winged.
+Fell Beast	25	1	L/la	VF/NF	285	RL/I2	60	95HCl/95LGr/100LBa/85LBi	Fell	Beast	of	the	Witch king.
+Durclax	20	1	L/La	FA/FA	200	RL/IL	70	80HCl/50LGr/60LBa/90LBi	Fell	Beast	of	the	Court of	Ardor.
+Enna San Sarab	25	1	L/la	FA/NF	375	RL/IZ	60	120HPi/95LHo/poison	Shelob's	daughter,	lives in	Dol	Guldur,
+Shelob	50	1	L/SL	FA/FA	500	Pl/20	80	120HPi/100HHo/120HBi	Hpi attack is poisoned.	If HHo gets	crit, HBi next round. Uses	spells
+Caran-Carach	16	1	L/La	VF/AF	200	Ch/I6	50	130LBi/110MCl	Werewolf,	Guardian	of	Dol	Guldur
+Carcharoth	18	1	L/la	VF/VF	310	Ch/I6	80	200LBi/200LCl	Werewolf,	Mightest	Wolf	of	Arda
+Draugluin	20	1	L/La	VF/NF	366	Ch/I6	90	210LBi/210LCl	Werewolf,	Greatest	of	the	Werewolves
