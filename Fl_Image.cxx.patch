@@ -1,0 +1,111 @@
+--- Fl_Image.cxx	2024-11-18 12:08:56.000000000 +1100
++++ /home/zen/fltk-1.4.0-1/src/Fl_Image.cxx	2024-11-21 07:49:24.743386760 +1100
+@@ -113,9 +113,18 @@
+     methods have not been 'const'.
+ */
+ Fl_Image *Fl_Image::copy(int W, int H) const {
++  if (H < 1 || W < 1) { printf("copy error - %d/%d\n", W, H); return NULL; }
+   return new Fl_Image(W, H, d());
+ }
+ 
++Fl_Image *Fl_Image::copy_rect(int W, int H, int X, int Y) {
++  return new Fl_Image(W, H, d());
++}
++
++Fl_Image *Fl_Image::mirror(int type) {
++  return new Fl_Image(w(), h(), d());
++}
++
+ /**
+   The color_average() method averages the colors in the image with
+   the provided FLTK color value.
+@@ -720,3 +729,89 @@
+ void Fl_RGB_Image::label(Fl_Menu_Item* m) {
+   m->label(FL_IMAGE_LABEL, (const char*)this);
+ }
++
++//*******************************************************************
++Fl_Image *Fl_RGB_Image::copy_rect(int W, int H, int X, int Y) {
++  Fl_RGB_Image *new_image; // New RGB image
++  uchar     *new_array; // New array for image data
++  
++  // Some boundary checks
++  if ((X + W) > w()) { W = w() - X; }
++  if ((Y + H) > h()) { H = h() - Y; }
++  
++  if (W <= 0 || H <= 0) return 0;
++  if (W > 4096 || H > 4096) return 0;
++  
++  new_array = new uchar[W * H * d()];
++     
++  const uchar *src = array;
++  uchar *dst = new_array;
++     
++  int dy, dh = H, wd = W * d(), wld = d() * w();
++  src += (Y * wld) + (X * d());
++     
++  for (dy=0; dy<dh; dy++) {
++       memcpy(dst, src, wd);
++       src += wld;
++       dst += wd;
++  }
++
++  new_image = new Fl_RGB_Image(new_array, W, H, d());
++  new_image->alloc_array = 1;
++
++  return new_image;
++}
++
++Fl_Image *Fl_RGB_Image::mirror(int type) {
++  Fl_RGB_Image *new_image; // New RGB image
++  uchar     *new_array; // New array for image data
++
++	int W = w(), H = h(), D = d();
++
++	if (type == 0 || D < 3) { return 0; }
++
++	new_array = new uchar[W * H * D];
++
++	const uchar *src = array;
++	uchar *dst = new_array;
++	int sz = w() * h() * d(), i, j;
++
++	if (type == 1) {	// vertically
++		for (j = 0; j < H; j++) {
++			src += (W * D);
++			for (i = 0; i < W; i++) {
++				*dst = *src;
++				*(dst + 1) = *(src + 1);
++				if (D > 2) { *(dst + 2) = *(src + 2); }
++				if (D > 3) { *(dst + 3) = *(src + 3); }
++				src -= D;
++				dst += D;
++			}
++			src += (W * D);
++		}
++	} else if (type == 2) {	// horizontally
++		src += (H-1) * W * D;
++		i = W * D;
++		for (j = 0; j < H; j++) {
++			memcpy(dst, src, i);
++			src -= i;
++			dst += i;
++		}
++	} else {	// both
++		src += sz - D;
++		while (sz >= 0) {
++			*dst = *src;
++			*(dst + 1) = *(src + 1);
++			if (D > 2) { *(dst + 2) = *(src + 2); }
++			if (D > 3) { *(dst + 3) = *(src + 3); }
++			dst += D;
++			src -= D;
++			sz -= D;
++		}
++	}
++
++  new_image = new Fl_RGB_Image(new_array, w(), h(), d());
++  new_image->alloc_array = 1;
++
++  return new_image;
++}

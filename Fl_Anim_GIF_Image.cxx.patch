@@ -1,0 +1,11 @@
+--- Fl_Anim_GIF_Image.cxx	2024-11-18 12:08:56.000000000 +1100
++++ /home/zen/fltk-1.4.0-1/src/Fl_Anim_GIF_Image.cxx	2024-11-21 07:27:31.601944361 +1100
+@@ -735,6 +735,8 @@
+  \return the resized copy of the animation
+  */
+ Fl_Image *Fl_Anim_GIF_Image::copy(int W, int H) const /* override */ {
++  if (H < 1 || W < 1) { printf("copy error - %d/%d\n", W, H); return NULL; }
++
+   Fl_Anim_GIF_Image *copied = new Fl_Anim_GIF_Image();
+   // copy/resize the base image (Fl_Pixmap)
+   // Note: this is not really necessary, if the draw()

@@ -1,0 +1,11 @@
+--- Fl_Shared_Image.cxx	2024-11-18 12:08:56.000000000 +1100
++++ /home/zen/fltk-1.4.0-1/src/Fl_Shared_Image.cxx	2024-11-21 07:27:53.053250478 +1100
+@@ -336,6 +336,8 @@
+   Fl_Image              *temp_image;    // New image file
+   Fl_Shared_Image       *temp_shared;   // New shared image
+ 
++  if (H < 1 || W < 1) { printf("copy error - %d/%d\n", W, H); return NULL; }
++
+   // Make a copy of the image we're sharing...
+   if (!image_) temp_image = 0;
+   else temp_image = image_->copy(W, H);

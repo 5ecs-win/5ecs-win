@@ -1,0 +1,11 @@
+--- wix.py.orig 2025-08-04 15:32:34.177208790 +1000
++++ wix.py      2025-08-04 15:32:42.882892529 +1000
+@@ -82,7 +82,7 @@
+ try:
+     with open(json_file, 'rb') as fp:
+         json_encoding = args.get('json_encoding', 'utf-8')
+-        json_data = json.load(fp, encoding=json_encoding)
++        json_data = json.load(fp)
+     if not json_data:
+         raise Exception('Empty JSON data!')
+     json_data = wixpy.utils.encode_json(json_data)

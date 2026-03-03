@@ -1,0 +1,17 @@
+--- Fl_Widget.cxx	2024-11-18 12:08:56.000000000 +1100
++++ /home/zen/fltk-1.4.0-1/src/Fl_Widget.cxx	2024-11-21 07:25:39.116341487 +1100
+@@ -142,8 +142,12 @@
+ // this is useful for parent widgets to call to resize children:
+ int Fl_Widget::damage_resize(int X, int Y, int W, int H) {
+   if (x() == X && y() == Y && w() == W && h() == H) return 0;
+-  resize(X, Y, W, H);
+-  redraw();
++  if ((Fl::event() == FL_DRAG || Fl::event() == FL_RELEASE) && Fl::event_button() == FL_PUSH) {
++   redraw();
++  } else {
++   resize(X, Y, W, H);
++   redraw();
++  }
+   return 1;
+ }
+ 
