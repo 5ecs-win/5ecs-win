@@ -183,6 +183,16 @@ printf("in GT: resetting BI %d:%s shadow\n", i, objectData[i].c_iconFile);
 				} else {
 					mx = sx + (gx * gridSize); my = sy + (gy * gridSize);
 					fl_rectf(mx, my, gridSize, gridSize, colorMap[0]);
+if (p_type == 9) { //GRID_MONSTER) {
+	printf("Color: %d/%d/%d/%d  Id: %d/%d/%d/%d  Type: %d/%d/%d/%d\nViewed: %d/%d/%d/%d  Hidden: %d/%d/%d/%d  Shadow: %d/%d/%d/%d\n",
+	gridPoints[pos].lvl0.i_color, gridPoints[pos].lvl1.i_color, gridPoints[pos].lvl2.i_color, gridPoints[pos].lvl3.i_color,
+	gridPoints[pos].lvl0.i_id, gridPoints[pos].lvl1.i_id, gridPoints[pos].lvl2.i_id, gridPoints[pos].lvl3.i_id,
+	gridPoints[pos].lvl0.i_type, gridPoints[pos].lvl1.i_type, gridPoints[pos].lvl2.i_type, gridPoints[pos].lvl3.i_type,
+	gridPoints[pos].lvl0.f_viewed, gridPoints[pos].lvl1.f_viewed, gridPoints[pos].lvl2.f_viewed, gridPoints[pos].lvl3.f_viewed,
+	gridPoints[pos].lvl0.f_hidden, gridPoints[pos].lvl1.f_hidden, gridPoints[pos].lvl2.f_hidden, gridPoints[pos].lvl3.f_hidden,
+	gridPoints[pos].lvl0.f_shadow, gridPoints[pos].lvl1.f_shadow, gridPoints[pos].lvl2.f_shadow, gridPoints[pos].lvl3.f_shadow);
+	fl_draw("1", mx+3, my+3);
+}
 				}
 			}
 		}
@@ -340,6 +350,7 @@ printf("Image corruption: %d:%s = %d:%d = %d:%d\n", p_id, objectData[p_id].c_ico
 									// on the player screen hide things
 								if (gridType == 1) {
 									fl_color(colorMap[0]); fl_rectf(mx+1,my+1,(gridSize*(osize-ix))-1,(gridSize*(osize-iy))-1);
+//fl_draw("2", mx+3, my+3);
 								}
 							}
 							if (currentIcon != NULL && currentIcon->w() > 0 && currentIcon->h() > 0) {
@@ -555,6 +566,7 @@ if (p_pcolor < 0 || p_pcolor > 31) { printf("gridTile: p_pcolor = %d\n", p_pcolo
 			if (p_id < MAX_PLAYERS && playerData[p_id].flags.f_disabled == 1) { continue; }
 
 			fl_color(colorMap[0]); fl_rectf(xpos, ypos, osize, osize);
+//fl_draw("3", mx+3, my+3);
 			text[0] = playerData[p_id].c_name[0]; text[1] = '\0';
 
 			if (playerData[p_id].i_doneAttacks > 0) { fl_color(FL_RED); } else { fl_color(FL_GREEN); }
@@ -965,7 +977,7 @@ int gridTile::handle(int event) {
 						if (playerData[gpos].flags.f_massUnit == 1 && playerData[gpos].flags.f_massStatus == 2) { strcat(buf, "Ha"); }
 					} else {
 						//sprintf(buf, "%d%% (%d) Attks:%d/%d Flag:", ((playerData[gpos].i_hp[HP_CUR] + playerData[i].i_hp[HP_ADJ]) * 100) / playerData[gpos].i_hp[HP_MAX], (playerData[gpos].i_hp[HP_CUR] + playerData[i].i_hp[HP_ADJ]), playerData[gpos].i_doneAttacks, playerData[gpos].i_noAttacks);
-						sprintf(buf, "%d%% (%d) Attks:%d/%d Flag:", playerData[gpos].i_health, (playerData[gpos].i_hp[HP_CUR] + playerData[i].i_hp[HP_ADJ]), playerData[gpos].i_doneAttacks, playerData[gpos].i_noAttacks);
+						sprintf(buf, "%d%% (%d) Attks:%d/%d Flag:", playerData[gpos].i_health, (playerData[gpos].i_hp[HP_CUR] + playerData[i].i_hp[HP_ADJ] + playerData[gpos].i_hp[HP_TMP]), playerData[gpos].i_doneAttacks, playerData[gpos].i_noAttacks);
 						if (playerData[gpos].flags.f_invisible == 1) { strcat(buf, "H"); }
 						if (playerData[gpos].flags.f_disabled == 1) { strcat(buf, "D"); }
 						if (playerData[gpos].i_penalty[PENALTY_EXHAUSTION] > 0) { strcat(buf, "E"); }
@@ -3333,7 +3345,9 @@ void gridTile::setGridPointViewed(int gx, int gy, int nx, int ny, int f) {
 
 	for (; ny>0; ny--) {
 		for (x=0; x<nx; x++) {
-			gridPoints[pos+x].lvl0.f_viewed = gridPoints[pos+x].lvl1.f_viewed = gridPoints[pos+x].lvl2.f_viewed = gridPoints[pos+x].lvl3.f_viewed = f;
+				// dont do all the levels
+// gridPoints[pos+x].lvl0.f_viewed = gridPoints[pos+x].lvl1.f_viewed = gridPoints[pos+x].lvl2.f_viewed = gridPoints[pos+x].lvl3.f_viewed = f;
+			gridPoints[pos+x].lvl0.f_viewed = f;
 		}
 		pos += gridWidth;
 	}
