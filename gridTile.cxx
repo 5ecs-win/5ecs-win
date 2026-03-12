@@ -1356,7 +1356,10 @@ void gridTile::moveGridPoint(int ox, int oy, int nx, int ny) {
 				gridPoints[npos].lvl0.f_hidden = gridPoints[opos].lvl0.f_hidden;
 				popGP(ox, oy, sz, sz, id, ty);
 				setShadow(nx, ny, id, ty, sz, sz, 1);
-				setGridPointViewed(nx, ny, sz, sz, gridPoints[npos].lvl0.f_viewed);
+// TODO
+				//setGridPointViewed(nx, ny, sz, sz, gridPoints[npos].lvl0.f_viewed);
+				setLOSAll();
+				setGridPointViewed(nx, ny, sz, sz, playerData[id].flags.f_wasViewed);
 				if (autoCenterPlayerWindow == 1 && gridType == 0 && id == 0) {
 					if (externalTile != NULL) { externalTile->centreMap(nx,ny); }
 				}
@@ -1854,7 +1857,7 @@ int deltax, deltay, x, y, xinc1, xinc2, yinc1, yinc2, den, num, numadd, numpixel
 			pos = x + (y*gridWidth);
 			if (hasBackGroundImage == 1) { gridPoints[pos].lvl0.f_viewed = 1; }
 			if (gridPoints[pos].lvl0.i_color != 0 || gridPoints[pos].lvl0.i_type != 0) {		// if we hit a wall stop
-				gridPoints[pos].lvl0.f_viewed = 1;
+				gridPoints[pos].lvl0.f_viewed = gridPoints[pos].lvl1.f_viewed = 1;
 				id = gridPoints[pos].lvl0.i_id;
 //if (pid == 0) printf("LoS: %d:%d = %d:%d\n", x, y, id, gridPoints[pos].lvl0.i_color);
 				if (gridPoints[pos].lvl0.i_type == GRID_MONSTER && id != 0 && playerData[id].flags.f_invisible == 0) {
@@ -3348,6 +3351,9 @@ void gridTile::setGridPointViewed(int gx, int gy, int nx, int ny, int f) {
 				// dont do all the levels
 // gridPoints[pos+x].lvl0.f_viewed = gridPoints[pos+x].lvl1.f_viewed = gridPoints[pos+x].lvl2.f_viewed = gridPoints[pos+x].lvl3.f_viewed = f;
 			gridPoints[pos+x].lvl0.f_viewed = f;
+			if (f == 1 && gridPoints[pos+x].lvl1.i_type == GRID_BACKGROUND) {
+				gridPoints[pos+x].lvl1.f_viewed = f;
+			}
 		}
 		pos += gridWidth;
 	}
